@@ -1,11 +1,13 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-around;
     min-width: 100%;
@@ -14,8 +16,9 @@ nav{
     position: fixed;
     transition: 1s;
 }
+
 /* second nav  */
-.second-nav{
+.second-nav {
     display: flex;
     justify-content: space-around;
     min-width: 100%;
@@ -23,70 +26,90 @@ nav{
     min-height: 4rem;
     position: fixed;
     background-color: #ffff;
-    
+
 }
-.second-nav .nav-left{color: #808080;}
-.second-nav .nav-right a{
+
+.second-nav .nav-left {
+    color: #808080;
+}
+
+.second-nav .nav-right a {
     color: #000;
 }
-.nav-left{
-    font-family: cursive,sans-serif;
+
+.nav-left {
+    font-family: cursive, sans-serif;
     font-size: 2rem;
     color: #fff;
-    
+
 }
-.nav-right{
-margin: auto 0;
+
+.nav-right {
+    margin: auto 0;
 }
-.nav-right a{
+
+.nav-right a {
     text-decoration: none;
     margin-left: 1rem;
     font-weight: bolder;
     color: #ffff;
 }
-.nav-right a:hover{
+
+.nav-right a:hover {
     padding: 0.2rem;
     color: red;
     text-decoration: underline;
 }
-.carousel-caption h1{
+
+.carousel-caption h1 {
     font-size: 2rem;
 }
-.carousel-caption p{
+
+.carousel-caption p {
     font-size: 1rem;
 }
-.about-section{
-    background-color:#ac0114;
+
+.about-section {
+    background-color: #ac0114;
     padding: 1rem;
-    color: #ffff; 
-}
-.justify-center button a:hover{
     color: #ffff;
 }
-#menu{
+
+.justify-center button a:hover {
+    color: #ffff;
+}
+
+#menu {
     background-color: #0000;
     min-width: 100%;
 }
 
-#contact{
-    background-color:#ac0114;
+#contact {
+    background-color: #ac0114;
     min-width: 100%;
 }
-.firsttwo{display: flex;}
-.firsttwo input{
+
+.firsttwo {
+    display: flex;
+}
+
+.firsttwo input {
     padding: 1rem;
     margin-right: 0.2rem;
     width: 50%;
     height: 2.5rem;
 }
-.secondOne{
+
+.secondOne {
     text-align: center;
 }
-.secondOne textarea{
+
+.secondOne textarea {
     margin-top: 1rem;
     width: 100%;
 }
-.secondOne button{
+
+.secondOne button {
     background: #000;
     color: #ffff;
     text-align: center;
@@ -95,36 +118,45 @@ margin: auto 0;
     width: 40%;
     font-size: 1.4rem;
 }
-.secondOne button:hover{
+
+.secondOne button:hover {
     opacity: 0.5;
     color: #ac0114;
 }
-svg:hover{
+
+svg:hover {
     cursor: pointer;
 }
+
 /* media queries  */
 @media only screen and (max-width: 600px) {
-    nav{
+    nav {
         flex-direction: column;
-        position:static;
+        position: static;
     }
-    .nav-left{
+
+    .nav-left {
         text-align: center;
         min-width: 100%;
         color: #808080;
     }
-    
-    .nav-right{
+
+    .nav-right {
         text-align: center;
         min-width: 100%;
         position: sticky;
         top: 2rem;
     }
-    .nav-right a{
+
+    .nav-right a {
         color: #000;
     }
-    .firsttwo{flex-direction: column;}
-    .firsttwo input{
+
+    .firsttwo {
+        flex-direction: column;
+    }
+
+    .firsttwo input {
         width: 100%;
         margin-top: 1rem;
     }
